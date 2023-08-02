@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  /* scroll-behavior: inherit; */
+  /* background-color: antiquewhite; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+li {
+  list-style: none;
+}
+
+.chat {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+.footer-contact span img {
+  margin-right: 7px;
+}
+a {
+  color: black;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 9rem;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 8px #d9dedf;
+  z-index: 10000000000000;
+}
+.topnav2 {
+  height: 2.7rem !important;
+  overflow: hidden;
+  position: absolute;
+}
+.logo {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topnav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+.topnav button {
+  background-color: #c8102e;
+  padding: 0.7rem 2rem;
+  border: none;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+}
+.topnav button:hover {
+  background-color: #b9001f;
+}
+.topnav a {
+  display: block;
+  text-align: center;
+  padding: 7px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 2px solid white;
+}
+.topnav a:hover {
+  border-bottom: 2px solid #c8102e;
+}
+.topnav a:last-child:hover{
+    /* border: none; */
+}
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1260px) {
+  .logo {
+    width: 20%;
+  }
+  .topnav {
+    padding: 0.7rem 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heroBanner-container h1 {
+    font-size: 2rem !important;
+  }
+  .topnav .icon {
+    display: block;
+  }
+  .logo {
+    width: 100vw;
+    padding: 0 1rem;
+  }
+  .topnav {
+    flex-direction: column;
+    /* height: 3rem;
+          overflow: hidden; */
+  }
+  .navBody {
+    transition: all 7s ease;
+    /* background-color: rebeccapurple;
+      position: relative !important;
+      transform: translateY(-100%) !importan; */
+    display: none !important;
+    z-index: -1;
+  }
+  .click {
+    display: block;
+    transform: translateY(0%);
+    transition: all 5s ease;
+  }
+  .topnav ul li {
+    text-align: center;
+  }
+  .topnav ul {
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .topnav button {
+    width: 60vw;
+  }
+  .heroBanner-container {
+    height: 50vh !important;
+  }
+}

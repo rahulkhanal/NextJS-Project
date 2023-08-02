@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Services from "@/components/Service";
 import Mission from "@/components/Mission";
+import Pricing from "@/components/Pricing";
 
 const Page = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const Page = () => {
       <Login />
       <Services />
       <Mission />
+      <Pricing />
     </div>
   );
 };

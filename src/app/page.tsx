@@ -5,7 +5,6 @@ import { AiFillAudio } from "react-icons/ai";
 const Page = () => {
   return (
     <div>
-      <h1>Hello World</h1>
       <Banner />
     </div>
   );

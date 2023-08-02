@@ -40,7 +40,7 @@ const Navigation = () => {
           <a href="#Pricing">Pricing</a>
         </li>
         <li>
-          <a href="#request">
+          <a href="#request" className="nav-btn">
             <button>Free SEO Analysis</button>
           </a>
         </li>

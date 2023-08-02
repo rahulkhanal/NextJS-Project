@@ -79,6 +79,9 @@ a {
 .topnav button:hover {
   background-color: #b9001f;
 }
+.nav-btn:hover {
+  border-bottom: 2px solid white !important   ;
+}
 .topnav a {
   display: block;
   text-align: center;
@@ -90,8 +93,8 @@ a {
 .topnav a:hover {
   border-bottom: 2px solid #c8102e;
 }
-.topnav a:last-child:hover{
-    /* border: none; */
+.topnav a:last-child:hover {
+  /* border: none; */
 }
 .topnav .icon {
   display: none;
@@ -149,4 +152,58 @@ a {
   .heroBanner-container {
     height: 50vh !important;
   }
+}
+
+/* Banner */
+.heroBanner-container {
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 5rem;
+  text-align: center;
+  height: 70vh;
+  width: 100%;
+  padding: 3rem 1rem;
+  background: url("../assets/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: inherit;
+  padding-bottom: 3rem;
+}
+.heroBanner-container p {
+  color: #fff;
+  margin-left: 14px;
+  margin: 12px 0px 10px 12px;
+}
+.heroBanner-container span {
+  display: block;
+  letter-spacing: 1.7px;
+}
+/* .heroBanner-container p::before {
+    content: "";
+    position: absolute;
+    margin-left: -10px;
+    height: 40px;
+    margin-top: 3px;
+    width: 4px;
+    background-color: #b9001f;
+  } */
+.heroBanner-container h1 {
+  /* line-height: 2rem; */
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+  color: #fff;
+}
+.heroBanner-container button {
+  margin-top: 1.3rem;
+  background-color: #c8102e;
+  padding: 0.9rem 2rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
 }

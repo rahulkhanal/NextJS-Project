@@ -32,7 +32,7 @@ const Banner = () => {
         <div>
           <h1>
             <span>
-              Connect. Engage.<span>Succeed</span>
+              Connect Engage.<span>Succeed</span>
             </span>
           </h1>
         </div>

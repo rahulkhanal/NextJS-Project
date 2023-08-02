@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-// import logo from '../../assets/logo.png'
 
 const Navigation = () => {
   const [showResponsiveNav, setShowResponsiveNav] = useState(true);
@@ -34,10 +33,13 @@ const Navigation = () => {
           <a href="#services">Services</a>
         </li>
         <li>
-          <a href="#Contact">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
         <li>
           <a href="#Pricing">Pricing</a>
+        </li>
+        <li>
+          <a href="/blog">Blog</a>
         </li>
         <li>
           <a href="#request" className="nav-btn">

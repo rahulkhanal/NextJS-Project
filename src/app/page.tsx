@@ -7,6 +7,8 @@ import "aos/dist/aos.css";
 import Services from "@/components/Service";
 import Mission from "@/components/Mission";
 import Pricing from "@/components/Pricing";
+import Request from "@/components/Request";
+import Meet from "@/components/Meet";
 
 const Page = () => {
   useEffect(() => {
@@ -21,6 +23,8 @@ const Page = () => {
       <Services />
       <Mission />
       <Pricing />
+      <Request />
+      <Meet />
     </div>
   );
 };

@@ -25,18 +25,18 @@ const Navigation = () => {
       </div>
       <ul className={showResponsiveNav ? "navBody" : "click"}>
         <li>
-          <a href="#banner" className="active">
+          <a href="/" className="active">
             Home
           </a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="/#services">Services</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="/#contact">Contact</a>
         </li>
         <li>
-          <a href="#Pricing">Pricing</a>
+          <a href="/#Pricing">Pricing</a>
         </li>
         <li>
           <a href="/blog">Blog</a>

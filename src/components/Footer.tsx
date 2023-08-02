@@ -6,6 +6,7 @@ import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram.png";
 import twitter from "../assets/twitter.png";
 import logo from "../assets/logo.png";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -75,6 +76,14 @@ const Footer = () => {
         <hr />
         <center style={{ padding: "1rem" }}>
           Copyright 2023 UK Digital Marketing inc, All rights reserved
+          <br />
+          Created By{" "}
+          <Link
+            style={{ color: "#fff" }}
+            href="https://www.digitalpravidhi.com/"
+          >
+            Digital Pravidhi
+          </Link>
         </center>
         <hr />
       </div>

@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import seoimg from "../assets/seo.png";
 import axios from "axios";
-console.log(seoimg);
 const Login = () => {
   const [data, setData] = useState({
     name: "",
